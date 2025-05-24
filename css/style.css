@@ -114,7 +114,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  border: 2px solid #000036;
+ 
   border-radius: 12px;
   padding: 4rem;
 }
@@ -211,14 +211,14 @@
 }
 
 .step-number {
-  font-size: 8.6rem;
+  font-size: 6.6rem;
   font-weight: 600;
   color: #ddd;
   margin-bottom: 1.2rem;
 }
 
 .step-description {
-  font-size: 1.8rem;
+  font-size: 1.6rem;
   line-height: 1.8;
   margin-bottom: 1.5rem;
 }
@@ -231,12 +231,13 @@
 }
 
 .step-img {
-  width: 100%;
+  width: 80%;
   border-radius: 20px;
+  opacity: 0.5rem;
 }
 
 .litigation-img {
-  width: 80%;
+  width: 60%;
 }
 
 /**************************/
@@ -462,77 +463,4 @@
   box-shadow: 0 0 0 0.8rem rgba(253, 242, 233, 0.5);
 }
 
-/**************************/
-/* ARTICLE SECTION*/
-/**************************/
 
-.article-section {
-  margin-bottom: 60px;
-}
-
-.carousel-article {
-  position: relative;
-  display: flex;
-  align-items: center;
-}
-
-.article-container {
-  display: flex;
-  overflow-x: auto;
-  scroll-behavior: smooth;
-  gap: 20px;
-  padding: 20px 0;
-}
-
-.article-container::-webkit-scrollbar {
-  display: none;
-}
-
-.article-container {
-  -ms-overflow-style: none; /* IE and Edge */
-  scrollbar-width: none; /* Firefox */
-}
-
-.article-card {
-  min-width: 300px;
-  max-width: 320px;
-  border-radius: 10px;
-  padding: 20px;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-  cursor: pointer;
-  text-decoration: none;
-  color: inherit;
-  transition: transform 0.3s;
-  flex-shrink: 0;
-}
-
-.article-card h3 {
-  margin-bottom: 10px;
-  color: goldenrod;
-  font-size: 2rem;
-}
-
-.article-card p {
-  font-size: 1.8rem;
-  color: #000036;
-  line-height: 1.4;
-}
-
-.article-card:hover {
-  transform: scale(1.05);
-}
-
-.nav-article {
-  background-color: #004080;
-  color: white;
-  border: none;
-  padding: 10px 14px;
-  cursor: pointer;
-  font-size: 24px;
-  border-radius: 50%;
-  z-index: 1;
-}
-
-.nav-article:hover {
-  background-color: #003060;
-}

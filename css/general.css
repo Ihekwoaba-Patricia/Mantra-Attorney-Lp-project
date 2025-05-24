@@ -147,7 +147,7 @@ body {
       right: 20px; /* distance from right edge */
       transform: translateY(-50%);
       background-color: #25D366;
-      padding: 18px;
+      padding: 14px;
       border-radius: 50%;
       box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
       z-index: 999;
@@ -155,13 +155,13 @@ body {
       display: flex;
       align-items: center;
       justify-content: center;
-      width: 60px;
-      height: 60px;
+      width: 48px;
+      height: 48px;
     }
 
     .whatsapp-container svg {
-      width: 30px;
-      height: 30px;
+      width: 28px;
+      height: 28px;
       fill: white;
     }
 
@@ -200,36 +200,34 @@ body {
 .heading-tertiary {
   font-weight: 700;
   color: #333;
-  /* color: #45260a; */
-  /* color: #343a40; */
   letter-spacing: -0.5px;
 }
 
 .heading-primary {
-  font-size: 4.2rem;
+  font-size: 2.2rem;
   line-height: 1.05;
   margin-bottom: 3.2rem;
 }
 
 .heading-secondary {
-  font-size: 3.4rem;
+  font-size: 2.4rem;
   line-height: 1.2;
   margin-bottom: 9.6rem;
 }
 
 .heading-tertiary {
-  font-size: 2.5rem;
+  font-size: 2.3rem;
   line-height: 1.2;
-  margin-bottom: 3.2rem;
+  margin-bottom: 1.2rem;
 }
 
 .subheading {
   display: block;
-  font-size: 1.6rem;
+  font-size: 1.4rem;
   font-weight: 500;
   color: goldenrod;
   text-transform: uppercase;
-  margin-bottom: 1.6rem;
+  margin-bottom: 1.2rem;
   letter-spacing: 0.75px;
 }
 
@@ -239,7 +237,7 @@ body {
   display: inline-block;
 
   text-decoration: none;
-  font-size: 2rem;
+  font-size: 1.6rem;
   font-weight: 600;
   padding: 1.6rem 2.2rem;
   border-radius: 9px;
